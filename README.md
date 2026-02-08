@@ -1,36 +1,24 @@
 # Azure Cloud Capstone Projects
 
-This repository contains **capstone cloud infrastructure projects** built in a **controlled Azure sandbox environment** with enforced **policy and RBAC restrictions**.
+A collection of **Azure infrastructure capstone projects** built in a **restricted sandbox environment** with enforced **policy and RBAC constraints**.
 
-The goal of these projects is to demonstrate **infrastructure design thinking**, **operational discipline**, and **decision-making under constraints**, rather than unrestricted or idealized deployments.
+These projects focus on **design judgment and operational thinking under constraints**, not idealized deployments.
 
 ---
 
-## 🎯 Purpose of This Repository
-
-These projects are designed to showcase:
-
-- Practical Azure infrastructure skills (IaaS + selected PaaS)
-- Terraform-based infrastructure provisioning
-- Networking, Storage, and Compute fundamentals
-- Engineering judgment when operating under real-world limitations
-
-This mirrors conditions commonly found in:
-- Enterprise environments
-- Training and internal sandboxes
-- Shared cloud subscriptions
-
+## 🎯 What This Repository Demonstrates
+- Azure infrastructure fundamentals (IaaS + selected PaaS)
+- Terraform-based provisioning and state management
+- Networking, storage, and compute design basics
+- Practical decision-making in constrained environments
 
 ---
 
 ## 🔒 Environment Constraints (Intentional)
-
-All projects were built under the following constraints:
-
+All projects were built with:
 - Pre-created resource groups
-- Custom Role RBAC permissions 
+- Custom RBAC roles (no owner access)
 - Enforced Azure policies
-- Limited region and SKU availability
-- No owner-level access
+- Limited regions and SKUs
 
-These constraints influenced design choices and are treated as **inputs**, not blockers.
+Constraints are treated as **inputs**, not blockers.
