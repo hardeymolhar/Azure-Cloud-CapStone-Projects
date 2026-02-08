@@ -1,4 +1,4 @@
-## (Context)
+## Context
 
 This project was implemented as a **single-directory Terraform configuration**, with resources separated into logical files (network, firewall, routes, compute).
 
